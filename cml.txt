@@ -1,0 +1,47 @@
+
+
+cd [Đích Đến] : change directory
+ VD :cd Desktop\Videos
+cd .. : Chuyển đến directory cha chứa nó
+cd ../.. : Chuyển đến cha của cha chứa nó
+cd D[Tab] : Dùng tab sẽ tự động lấy tên file, có thể ấn nhiều lần để ra tên mong muốn
+
+dir :Liệt kê hết directory(files) trong c
+dir [Đích Đến] : Duyệt files không cần chạy trong thư mục đó
+dir /a :Duyệt cả file ẩn
+dir *.png : Tìm tất cả file png chứa trong thư mục đó (* : Không quan tâm tên,Tất cả đều thoả mãn)
+[Tên file] :Mở file bằng trình duyệt defaul
+ VD:123.png
+up arrow :Dùng mũi tên lên để lục lại các command line trước đó
+
+mkdir [Tên file]:Tạo file(Make dir)
+ VD : mkdir Bacon
+rmdir [Tên File]:Xoá file(remove dir) chỉ khi ko có gì trong file cần xoá
+rmdir /s [Tên File] :Xoá sạch
+del [tên file] : Xoá file
+
+echo lalala > bacon.text : Tạo file text bacon bên trong có lalala
+type bacon.text : xem file ở màn command prompt
+echo aaa > bacon.text : Ghi đè lên bacon thành aaa thay lalala
+echo bbb >> bacon.text :Add thêm vào, ko ghi đè
+
+rename Bacon Ham :Thay tên Bacon bằng Ham
+dir > poky.text : Ghi vào file
+type poky.text 
+move [A] [B] : mang cả A vào B
+copy [A] [B] : copy trong A vào B nếu A là folder
+xcopy tương tự nhưng lấy trong A mang vào trong B , chỉ lấy file ko lấy folder
+xcopy [A] [B] /s :s = subfolder mang hết từ A vào B
+ VD: copy buky.text Test 
+attrib /?: thuộc tính
+attrib +h bacon.txt :Thêm thuộc tính hidden vào bacon.txt
+ Thêm + Xoá -
+color [A][B] :A là backgroud color , B là color chữ
+wmic logicaldisk get name : Lấy tên các phân vùng
+D: : Chuyển sang ổ D
+path :Lấy tất cả đường dẫn, có thể gõ tên 1 chương trình gì đó nó sẽ quét cả máy tính để tìm file cần chạy
+cd "C:\Program File" : Lệnh này có " " vì nó có dấu cách ở tên file 
+Ấn home để chuyển về đầu dòng, end để về cuối
+cls :Clear Screan Xoá màn hình
+ctrl + c :Chuyển về
+ipconfig /? :Hiện tất cả options menu lên của lệnh phía trước /?
